@@ -1,8 +1,11 @@
 # Sockets & Socket.io
 1. Client-side setup: p5 functions setup() & mouseMoved()
 2. Server-side setup: HTTP Server
+
 http = require('http')
+
 server = http.createServer(app)
+
 server.listen
 3. Server-side socket connection
 	3.1 Require socket.io and start a server
